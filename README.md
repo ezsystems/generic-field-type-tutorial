@@ -7,9 +7,10 @@ This repository contains resources used in the eZ Platform Enterprise Edition Be
 This tutorial covers the creation and development of a custom eZ Platform Field Type based on a Generic Field Type. You will:
 
 - Create a custom Field Type 
-- Register it as a service and define its template
-- Add basic validation to it
-- Add data migration to it
+- Register it as a service
+- Define the template
+- Add basic validation
+- Add data migration
 
 ## Files in the repository
 
