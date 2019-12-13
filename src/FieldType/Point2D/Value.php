@@ -28,10 +28,12 @@ final class Value implements ValueInterface
      */
     private $y;
 
-    public function __construct(?float $x = null, ?float $y = null)
+    public function __construct(array $coords = [])
     {
-        $this->x = $x;
-        $this->y = $y;
+        if (!empty($coords)) {
+            $this->x = $coords[0];
+            $this->y = $coords[1];
+        }
     }
 
     public function getX(): ?float
