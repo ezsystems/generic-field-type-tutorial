@@ -11,8 +11,8 @@ namespace App\FieldType\Point2D;
 
 use App\Form\Type\Point2DType;
 use eZ\Publish\SPI\FieldType\Generic\Type as GenericType;
-use EzSystems\RepositoryForms\Data\Content\FieldData;
-use EzSystems\RepositoryForms\FieldType\FieldValueFormMapperInterface;
+use EzSystems\EzPlatformContentForms\Data\Content\FieldData;
+use EzSystems\EzPlatformContentForms\FieldType\FieldValueFormMapperInterface;
 use Symfony\Component\Form\FormInterface;
 
 final class Type extends GenericType implements FieldValueFormMapperInterface
