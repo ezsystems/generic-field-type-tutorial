@@ -1,3 +1,6 @@
 {% block point2d_field %}
-    ({{ field.value.getX() }}, {{ field.value.getY() }})
+    {{ fieldSettings.format|replace({
+        '%x%': field.value.x,
+        '%y%': field.value.y
+    }) }}
 {% endblock %}
