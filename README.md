@@ -14,4 +14,4 @@ This tutorial covers the creation and development of a custom eZ Platform Field 
 
 ## Files in the repository
 
-Files in this repository are organized in branches. Each branch contains the files used in respective steps of the tutorial.g
+Files in this repository are organized in branches. Each branch contains the files used in respective steps of the tutorial.
