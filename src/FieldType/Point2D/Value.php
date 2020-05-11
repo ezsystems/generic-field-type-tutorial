@@ -12,7 +12,8 @@ namespace App\FieldType\Point2D;
 use eZ\Publish\SPI\FieldType\Value as ValueInterface;
 use Symfony\Component\Validator\Constraints as Assert;
 
-final class Value implements ValueInterface
+final class Value implements ValueInterface 
+{
 
     /**
      * @var float|null
